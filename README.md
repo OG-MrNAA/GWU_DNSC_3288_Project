@@ -9,7 +9,7 @@
 - **Date**: 2025-12-10
 - **Model Version**: 1.0
 - **License**: MIT
-- **Implementation**: [Jupyter Notebook](./Project_DNSC_3288.ipynb)
+- **Implementation**: [Jupyter Notebook](./DNSC_3288_Predict_future_sales_Project.ipynb)
 
 ### Reference Examples
 
