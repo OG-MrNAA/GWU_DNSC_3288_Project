@@ -84,8 +84,8 @@ We evaluated the model using **RMSE** (standard regression metric), **AUC** (Are
 *Note: Test AUC and AIR are N/A because ground truth labels are held by Kaggle. Only RMSE is available via the Kaggle public and private leaderboards.*
 
 ### Plots
-- **Figure 1**: Monthly sales trends show seasonality and overall trend (saved as `figures/monthly_sales.png`).
-- **Figure 2**: Feature importance plot confirms that `item_cnt_lag_1` (previous month's sales) is the most predictive feature (saved as `figures/feature_importance.png`).
+- **Figure 1**: Monthly sales trends show seasonality and overall trend (saved as `monthly_sales.png`).
+- **Figure 2**: Feature importance plot confirms that `item_cnt_lag_1` (previous month's sales) is the most predictive feature (saved as `feature_importance.png`).
 
 ## 6. Ethical Considerations
 
