@@ -3,17 +3,18 @@
 
 ## 1. Basic Information
 
-- **Course**: DNSC 3288 (Machine Learning)
+- **Course**: DNSC 3288 (Big Data, Predictive Analytics and
+Ethics)
 - **Project Title**: Predict Future Sales (Kaggle Competition)
 - **Student(s)**: Naim Abu Altayeb (naimabualtayeb@gwu.edu)
-- **Date**: 2025-12-10
+- **Date**: 2025-12-10 
 - **Model Version**: 1.0
 - **License**: MIT
 - **Implementation**: [Jupyter Notebook](./DNSC_3288_Predict_future_sales_Project.ipynb)
 
 ### Reference Examples
 
-We referred to the Kaggle notebook “Predict Future Sales - Arima - Prophet - XGBOOST” and the GitHub repository `GWU_DNSC_6301_project` for ideas about workflow and documentation style. All final modeling and decisions in this project are our own.
+We referred to the Kaggle notebooks [“Predict Future Sales - Arima - Prophet - XGBOOST”](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/code?competitionId=8587&sortBy=voteCount&excludeNonAccessedDatasources=true) and the GitHub repository [`GWU_DNSC_6301_project`](https://github.com/jphall663/GWU_DNSC_6301_project) for ideas about workflow and documentation style. All final modeling and decisions in this project are my own.
 
 ### Intended Use
 
@@ -23,7 +24,7 @@ We referred to the Kaggle notebook “Predict Future Sales - Arima - Prophet - X
 
 ## 2. Training Data
 
-- **Source**: Kaggle 'Predict Future Sales' competition dataset (`sales_train.csv`).
+- **Source**: Kaggle ['Predict Future Sales'](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview) competition dataset (`sales_train.csv`).
 - **Split Method**: Time-based split.
   - **Training**: First 32 months (date_block_num <= 31).
   - **Validation**: Subsequent 2 months (date_block_num 32, 33).
