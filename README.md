@@ -104,3 +104,12 @@ We evaluated the model using **RMSE** (standard regression metric), **AUC** (Are
 - **Unexpected Results**
   - The AUC values for the binary “sold at least one unit” task are only slightly above 0.5, which suggests that this classification view of the task is quite hard and many items rarely sell.
   - The AIR metric is 1.0 across the broad item-category groups we tested. This likely reflects very low positive rates across all categories rather than strong evidence of true fairness. A production system would need a deeper bias and subgroup analysis before deployment.
+
+## 7. Use of AI Tools
+
+I used AI assistants while working on this project:
+
+- ChatGPT (OpenAI) and Gemini 3 in Google Colab.
+- They helped me write and clean Python code, fix errors, and draft parts of this README/model card.
+
+I ran all code myself, checked that it worked on the data, and chose the final features, model settings, and metrics.
